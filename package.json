@@ -1,0 +1,14 @@
+{
+  "name": "runtypekit",
+  "version": "0.0.0",
+  "description": "Hello, World!",
+  "license": "MIT OR UNLICENSED",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
