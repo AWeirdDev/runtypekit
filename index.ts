@@ -94,7 +94,7 @@ function machine(code: Instructions, target: any): boolean {
         const instruction = code[machine.$pc] as unknown as Inst;
         const param = code[machine.$pc + 1] as any;
 
-        // console.log(Inst[instruction], param);
+        console.log(Inst[instruction], param);
 
         // For the sake of compile-time optimizations, instead of
         // functions (which may have a bit of an overhead), we'll
